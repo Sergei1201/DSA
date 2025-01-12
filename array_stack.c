@@ -74,6 +74,8 @@ int main(void) {
 	// pop_element(s);
 	// pop_element(s);
 	// print_stack(s);
+	// Return memory back to the OS
+	free(s);
 	
 	return 0;
 };
