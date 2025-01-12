@@ -78,7 +78,7 @@ int main(void) {
 	return 0;
 };
 
-/* Function implementation */
+/* Function definition */
 
 void create_stack(st *s) {
 	s->top = -1;
