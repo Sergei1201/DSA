@@ -125,6 +125,7 @@ Stack *st = (Stack *)malloc(sizeof(Stack));
 
 // Initialize the stack
 initialize_stack(st);
+
 // Push onto the stack
 push_node(st, 10);
 push_node(st, 20);
@@ -141,6 +142,7 @@ pop_node(st);
 pop_node(st);
 print_stack(st);
 free(st);
+
 return 0;
 
 }
